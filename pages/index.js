@@ -25,7 +25,7 @@ function Home() {
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
-        <meta property="og:image" content="/public/demo.png" />
+        <meta property="og:image" content="/demo.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
