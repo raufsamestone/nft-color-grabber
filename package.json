@@ -1,5 +1,5 @@
 {
-  "name": "emoji-url",
+  "name": "nft-color-grabber",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "colorthief": "^2.3.2",
+    "got": "^12.0.3",
+    "link-preview-js": "^2.1.13",
+    "metascraper": "^5.29.3",
+    "metascraper-image": "^5.29.3",
     "next": "12.1.5",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "use-image-color": "^0.0.9",
+    "web3": "^1.7.3"
   },
   "devDependencies": {
     "eslint": "8.13.0",
