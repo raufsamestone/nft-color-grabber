@@ -34,7 +34,7 @@ function Home() {
         <div className="colors">
           {colors &&
             colors.map((color) => (
-              <div>
+              <div key={color}>
                 <div
                   style={{
                     background: color,
@@ -50,7 +50,7 @@ function Home() {
         </div>
       </main>
       <span className={styles.footer}>
-        <a target="_blank" href={webURL + "?ref=image-grabber"}>
+        <a target="_blank" without rel="noreferrer" href={webURL + "?ref=image-grabber"}>
           {" "}
           raufsamestone
         </a>
