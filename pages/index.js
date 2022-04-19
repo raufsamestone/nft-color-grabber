@@ -17,7 +17,7 @@ function Home() {
   };
 
   const title = "NFT Color Grabber 🎨";
-  const description = 'Paste any NFT or image URL and get color density.';
+  const description = "Paste any NFT or image URL and get color density.";
   const webURL = "https://raufsamestone.com";
 
   return (
@@ -26,6 +26,10 @@ function Home() {
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta property="og:image" content="/demo.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content="/demo.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
@@ -52,7 +56,12 @@ function Home() {
         </div>
       </main>
       <span className={styles.footer}>
-        <a target="_blank" without rel="noreferrer" href={webURL + "?ref=image-grabber"}>
+        <a
+          target="_blank"
+          without
+          rel="noreferrer"
+          href={webURL + "?ref=image-grabber"}
+        >
           {" "}
           raufsamestone
         </a>
